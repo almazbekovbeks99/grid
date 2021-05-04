@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+.container{
+    display: grid;
+    width: 90%;
+    height: 100vh;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 10px ;
+    padding: 30px;
+    margin: auto;
+}
+.card1{
+    background: url("https://images.wallpapersden.com/image/download/the-mountain_bGZnbW6UmZqaraWkpJRnamtlrWZpaWU.jpg")center/cover;
+    grid-row: 1/4;
+    grid-column: 1/2;
+}
+.card2{
+    background: url("http://www.leyphotography.com/newsite/wp-content/uploads/2017/12/travel-nature-1400-004-thegem-gallery-metro.jpg")center/cover;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.card3{
+    background: url("https://www.bhmpics.com/download/beautiful_peaceful_nature_lakes-1400x1050.jpg")center/cover;
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+.card4{
+    background: url("https://lh3.googleusercontent.com/proxy/plUdBcQQs08_flh6bBkjH3rdlTHsni-XW-QDAol2Y_2WVc-9qjqT2JaAs55sbiVPsevRjBAM_qSSlbWk7JpLjfHDUtH1Ak5Gn1x_Uz_i1Ou95iumZVtDG5mraSZDDMrh")center/cover;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.card5{
+    background: url("https://s1.1zoom.me/big3/485/353639-svetik.jpg")center/cover;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.card6{
+    background: url("https://s1.1zoom.me/big3/798/379129-svetik.jpg")center/cover;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.card7{
+    background: url("https://c4.wallpaperflare.com/wallpaper/408/744/982/sunset-mountain-flowers-rainier-national-park-washington-united-states-wallpaper-widescreen-hd-1920%C3%971200-wallpaper-preview.jpg")center/cover;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.card8{
+    background: url("http://cache.desktopnexus.com/thumbseg/2348/2348839-bigthumbnail.jpg")center/cover;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
